@@ -6,6 +6,8 @@ body {
   margin: 0;
   background-image: url("img/bg2.png");
   background-color: #6133b4;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 /*# sourceMappingURL=style.css.map */
