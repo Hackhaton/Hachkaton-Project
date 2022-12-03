@@ -8,3 +8,27 @@ body {
   background-color: #6133b4;
   background-position: 10%;
 }
+
+.main-sides{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+
+.left-side{
+  width: 50%;
+  border: solid 1px;
+}
+
+.right-side{
+  width: 50%;
+  text-align: center;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+}
+
+.right-side p{
+  text-align: center;
+}
