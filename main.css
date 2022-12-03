@@ -126,6 +126,7 @@ body .nav2 {
   }
 
 
+
  li a{
    display: inline-block;
    position: relative;
@@ -150,4 +151,7 @@ body .nav2 {
     bottom: -15px;
    transform-origin: bottom left;
  }
+
+  
+
   
