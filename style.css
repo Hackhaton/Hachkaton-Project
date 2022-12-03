@@ -13,47 +13,7 @@ body {
 .main_box{
   width: 100%;
   height: 100vh;
-
-
-}
-
-.left-side{
-  width: 45%;
-  text-align: start;
-  border: solid 1px black;
   display: flex;
-  align-items: center;
-  flex-direction: space;
-  margin: auto;
-  flex-direction: column;
-}
-.right-side h1{
-  text-align: center !important;
-}
-
-.right-side{
-  width: 45%;
-  text-align: start;
-  border: solid 1px black;
-  display: flex;
-  align-items: center;
-  margin: auto;
-  flex-direction: column;
-}
-
-.line{
-  height: 1px;
-  color: white;
-  width: 40%;
-}
-
-
-.right-side{
-  text-align: center;
-  border: solid 1px black;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .left_box{
@@ -131,19 +91,3 @@ a{
   margin-left: 60px;
 }
 
-
-#Username{
-    margin-bottom: 1em;
-    border-radius: 2px;
-    background-color: #432874;
-    border-color: #432874;
-    color: #925cf3;
-    border: 2px solid transparent;
-    display: block;
-    width: 50%;
-    
-  }
-  #Username::placeholder{
-    position:relative;
-    left: 15px;
-  }
