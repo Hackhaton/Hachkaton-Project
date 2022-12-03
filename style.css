@@ -4,9 +4,10 @@
 
 body {
   margin: 0;
-  background-image: url("img/background.png");
+  background-image: url("img/bg2.png");
   background-color: #6133b4;
-  background-position: 10%;
+  background-position: 25%;
+  background-size: contain;
 }
 
 .main-sides{
@@ -45,3 +46,32 @@ body {
   color: white;
   width: 40%;
 }
+
+
+.right-side{
+  text-align: center;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-side p{
+  
+}
+
+#Username{
+    margin-bottom: 1em;
+    border-radius: 2px;
+    background-color: #432874;
+    border-color: #432874;
+    color: #925cf3;
+    border: 2px solid transparent;
+    display: block;
+    width: 50%;
+    
+  }
+  #Username::placeholder{
+    position:relative;
+    left: 15px;
+  }
