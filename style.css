@@ -4,6 +4,6 @@
 
 body {
   margin: 0;
-}
-
-/*# sourceMappingURL=main.css.map */
+  background-image: url("img/background.png");
+  background-color: #6133b4;
+}/*# sourceMappingURL=style.css.map */
