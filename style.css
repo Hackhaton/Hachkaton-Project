@@ -17,18 +17,31 @@ body {
 }
 
 .left-side{
-  width: 50%;
-  border: solid 1px;
-}
-
-.right-side{
-  width: 50%;
-  text-align: center;
+  width: 45%;
+  text-align: start;
   border: solid 1px black;
   display: flex;
   align-items: center;
+  flex-direction: space;
+  margin: auto;
+  flex-direction: column;
+}
+.right-side h1{
+  text-align: center !important;
 }
 
-.right-side p{
-  text-align: center;
+.right-side{
+  width: 45%;
+  text-align: start;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.line{
+  height: 1px;
+  color: white;
+  width: 40%;
 }
