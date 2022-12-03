@@ -1,218 +1,222 @@
-body{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(200,203,213,1) 100%);
-    margin: 0;
-    overflow: hidden;
-}
-
-.main_box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.left_content{
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.img_side{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content_box{
-    height: 60%;
-    width: 100%;
-    margin-left: 25px;
-    text-align: center;
-}
-
-
-.text1{
-    font-size: 70px;
-    margin: 0;
-    font-weight: 800;
-    color: #4c317d;
-}
-
-
-.text2{
-    font-size: 70px;
-    margin: 0;
-    font-weight: 800;
-    letter-spacing: 5px;
-    color: #4c317d;
-}
-
-.desc{
-    font-size: 50px;
-    margin: 0;
-    margin-top: 10px;
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 29%, rgba(200, 203, 213, 1) 100%);
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 
 }
 
-.Big{
-    width: 50%;
-    color: #6a519a;
-    font-size: 19px;
-    display: inline-block;
-    margin: 0;
+.main_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Register{
-    background-color: #422575;
-    border: 0;
-    width: 200px;
+.left_content {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-.Login{
-    color: #000;
-    background-color: #fff;
-    border: 2px #000 solid;
-    margin-left: 25px;
-    width: 200px;
-    transition: 350ms;
+.img_side {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Register:hover{
-    background-color: #3a1e6b;
+.content_box {
+  height: 60%;
+  width: 100%;
+  margin-left: 25px;
+  text-align: center;
 }
 
-.Login:hover{
-    background-color: #31185c;
+
+.text1 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 800;
+  color: #4c317d;
 }
 
-.btn_box{
-    margin-top: 15px;
+
+.text2 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: #4c317d;
 }
 
-.Right_image{
-    width: 400px;
+.desc {
+  font-size: 50px;
+  margin: 0;
+  margin-top: 10px;
+
 }
 
-svg{
-    height: 500px;
-    width: 500px;
+.Big {
+  width: 50%;
+  color: #6a519a;
+  font-size: 19px;
+  display: inline-block;
+  margin: 0;
 }
-.Blob{
-    position: absolute;
-    z-index: -1;
+
+.Register {
+  background-color: #422575;
+  border: 0;
+  width: 200px;
+}
+
+.Login {
+  color: #000;
+  background-color: #fff;
+  border: 2px #000 solid;
+  margin-left: 25px;
+  width: 200px;
+  transition: 350ms;
+}
+
+.Register:hover {
+  background-color: #3a1e6b;
+}
+
+.Login:hover {
+  background-color: #31185c;
+}
+
+.btn_box {
+  margin-top: 15px;
+}
+
+.Right_image {
+  width: 400px;
+}
+
+svg {
+  height: 500px;
+  width: 500px;
+}
+
+.Blob {
+  position: absolute;
+  z-index: -1;
 }
 
 
 body .nav2 {
-    background-color: #432874;
-    height: 60px;
-  }
-  
-  body .nav2 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding-left: 40px;
-  }
-  
-  body .nav2 div {
-    display: flex;
-    padding-top: 18px !important;
-  
-  
-  }
-  
-  body .nav2 ul li a {
-    color: white;
-    text-decoration: none;
-  
-  }
-  
-  body .nav2 .page {
-    font-weight: 500;
-    font-size: 16px;
-    margin-right: 20px;
-  }
-  
-  body .nav2 .right .page {
-    font-size: 20px;
-  }
-  
-  body .nav2 .logo i {
-    font-size: 20px;
-    margin-right: 30px;
-  }
-  
-  .countPage {
-    margin-right: 10px;
-  }
-  
-  .fa-rotate-right {
-    margin-left: 20px;
-  }
-  
-  .countPage,
-  .countPage i {
-    font-size: 20px;
-  }
-  
-  .countPage img {
-    height: 20px;
-    width: 20px;
-  }
-  
-  main .profile {
-    height: 190px;
-    background-color: #36205D;
-  }
-  
-  body .nav1 {
-    width: 80%;
-    margin: auto;
-  }
-  
-  body .nav1 div {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  body .nav1 .right {
-    margin-top: 12px;
-  }
-  
-  body .nav1 ul {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  body .nav1 li {
-    list-style: none;
-  }
-  
-  body .nav1 li a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  body .nav1 li .logo {
-    font-size: 30px;
-  }
-  
-  body .nav1 li .account {
-    font-size: 18px;
-    margin-right: 30px;
-    background-color: #9a62ff;
-    padding: 8px 15px;
-    border-radius: 3px;
-  }
-  
-  body .nav1 li .account:hover {
-    background: #4f2a93;
-    transition: 0.3s;
-  }
+  background-color: #432874;
+  height: 60px;
+}
+
+body .nav2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 40px;
+}
+
+body .nav2 div {
+  display: flex;
+  padding-top: 18px !important;
+
+
+}
+
+body .nav2 ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+body .nav2 .page {
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+body .nav2 .right .page {
+  font-size: 20px;
+}
+
+body .nav2 .logo i {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.countPage {
+  margin-right: 10px;
+}
+
+.fa-rotate-right {
+  margin-left: 20px;
+}
+
+.countPage,
+.countPage i {
+  font-size: 20px;
+}
+
+.countPage img {
+  height: 20px;
+  width: 20px;
+}
+
+main .profile {
+  height: 190px;
+  background-color: #36205D;
+}
+
+body .nav1 {
+  width: 80%;
+  margin: auto;
+}
+
+body .nav1 div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body .nav1 .right {
+  margin-top: 12px;
+}
+
+body .nav1 ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body .nav1 li {
+  list-style: none;
+}
+
+body .nav1 li a {
+  text-decoration: none;
+  color: black;
+}
+
+body .nav1 li .logo {
+  font-size: 30px;
+}
+
+body .nav1 li .account {
+  font-size: 18px;
+  margin-right: 30px;
+  background-color: #9a62ff;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+body .nav1 li .account:hover {
+  background: #4f2a93;
+  transition: 0.3s;
+}
