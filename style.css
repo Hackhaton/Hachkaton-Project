@@ -6,7 +6,8 @@ body {
   margin: 0;
   background-image: url("img/background.png");
   background-color: #6133b4;
-}/*# sourceMappingURL=style.css.map */
+  background-position: 10%;
+}
 
 .main-sides{
   display: flex;
