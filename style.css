@@ -19,6 +19,9 @@ body {
 .left_box{
   width: 60%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .right_box{
@@ -89,5 +92,7 @@ a{
 .givi{
   margin-top: 60px;
   margin-left: 60px;
+  display: flex;
+  align-items: center;
 }
 
