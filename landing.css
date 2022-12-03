@@ -14,7 +14,6 @@ body{
 .left_content{
     height: 100vh;
     width: 50%;
-    border: solid 1px black;
     display: flex;
     text-align: center;
     align-items: center;
@@ -23,7 +22,6 @@ body{
 .img_side{
     width: 50%;
     height: 100vh;
-    border: solid 2px red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +30,6 @@ body{
 .content_box{
     height: 60%;
     width: 100%;
-    border: solid 2px blue;
     margin-left: 25px;
     text-align: center;
 }
