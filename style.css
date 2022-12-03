@@ -19,6 +19,15 @@ body {
   display: flex;
 }
 
+
+.main_box2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .left_box {
   width: 60%;
   height: 100vh;
@@ -34,11 +43,29 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.right_box2{
+  /* width: 50%; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .text_box {
   margin-top: 80px;
   text-align: center;
   width: 70%;
+}
+
+.text_box2{
+  margin-bottom: 10px;
+  text-align: center;
+  width: 70%;
+}
+.text_box2 h1 {
+  font-size: 30px;
+  color: #fff;
 }
 
 .text_box h1 {
@@ -58,6 +85,36 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
+}
+
+.email-user h6{
+  margin-right: 200px;
+  margin-bottom: -20px;
+  color: white;
+}
+
+.pass{
+  margin-right: 522px;
+  margin-top: 60px;
+  margin-bottom: -60px;
+  position: relative;
+  top: 25px;
+  color: white;
+  
+}
+
+.pass h6{
+  position: relative;
+  bottom: 30px;
+  left: 70px;
+}
+
+.pass a{
+  position: relative;
+  color: rgba(255, 255, 255, 0.388);
+  left: 427px;
+  bottom: 60px;
+
 }
 
 .register_form input {
@@ -88,6 +145,20 @@ body {
   background-color: #50b5e9;
 }
 
+.knopka2{
+  background: #46a7d9;
+  font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    border: 1px solid transparent;
+    padding: 0.219rem 0.75rem;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
+
 a {
   text-decoration: none;
 }
@@ -99,3 +170,14 @@ a {
   align-items: center;
 }
 
+.justsign {
+  margin-top: 20px;
+}
+
+.justsign a{
+  color: white;
+}
+
+.justsign:hover{
+  text-decoration: underline;
+}
