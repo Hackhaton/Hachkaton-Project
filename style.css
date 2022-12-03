@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-image: url("img/background.png");
+  background-image: url("img/bg2.png");
   background-color: #6133b4;
   font-family: 'Roboto', sans-serif;
 }
@@ -118,4 +118,90 @@ body .nav1 li .account {
 body .nav1 li .account:hover {
   background: #4f2a93;
   transition: 0.3s;
+}
+
+.main_box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left_box {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right_box {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_box {
+  margin-top: 80px;
+  text-align: center;
+  width: 70%;
+}
+
+.text_box h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.text_box p {
+  font-size: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: start;
+}
+
+.register_form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register_form input {
+  margin-top: 25px;
+  width: 70%;
+  background-color: #36205d;
+  border: 0;
+  text-indent: 15px;
+  height: 40px;
+}
+
+::placeholder {
+  color: #925cf3;
+}
+
+.Button_box {
+  width: 70%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.knopka {
+  width: 90%;
+  border-radius: 4px;
+  background-color: #50b5e9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.givi {
+  margin-top: 60px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
 }
