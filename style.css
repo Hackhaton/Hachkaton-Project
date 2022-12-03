@@ -33,7 +33,7 @@ body {
 }
 
 .text_box{
-  margin-top: 140px; 
+  margin-top: 80px; 
   text-align: center;
   width: 70%;
 }
@@ -95,4 +95,6 @@ a{
   display: flex;
   align-items: center;
 }
+
+
 

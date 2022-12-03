@@ -1,0 +1,110 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 29%, rgba(200,203,213,1) 100%);
+    margin: 0;
+    overflow: hidden;
+}
+
+.main_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_content{
+    height: 100vh;
+    width: 50%;
+    border: solid 1px black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.img_side{
+    width: 50%;
+    height: 100vh;
+    border: solid 2px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_box{
+    height: 60%;
+    width: 100%;
+    border: solid 2px blue;
+    margin-left: 25px;
+    text-align: center;
+}
+
+
+.text1{
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+    color: #4c317d;
+}
+
+
+.text2{
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: #4c317d;
+}
+
+.desc{
+    font-size: 50px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.Big{
+    width: 50%;
+    color: #6a519a;
+    font-size: 19px;
+    display: inline-block;
+    margin: 0;
+}
+
+.Register{
+    background-color: #422575;
+    border: 0;
+    width: 200px;
+}
+
+.Login{
+    color: #000;
+    background-color: #fff;
+    border: 2px #000 solid;
+    margin-left: 25px;
+    width: 200px;
+    transition: 350ms;
+}
+
+.Register:hover{
+    background-color: #3a1e6b;
+}
+
+.Login:hover{
+    background-color: #31185c;
+}
+
+.btn_box{
+    margin-top: 15px;
+}
+
+.Right_image{
+    width: 400px;
+}
+
+svg{
+    height: 500px;
+    width: 500px;
+}
+.Blob{
+    position: absolute;
+    z-index: -1;
+}
