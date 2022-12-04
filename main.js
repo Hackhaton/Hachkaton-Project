@@ -96,8 +96,8 @@ let coinnum = 0;
 
 $(damateba).click(function (e) { 
   e.preventDefault();
-  gemnum += 3;
-  coinnum += 1;
+  gemnum += 0.512;
+  coinnum += 0.311;
   $(Gem1).html(Math.round(gemnum * 100) / 100);
   $(Coin1).html(Math.round(coinnum * 100) / 100);
 
