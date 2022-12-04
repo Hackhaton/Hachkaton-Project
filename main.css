@@ -165,7 +165,7 @@ body .nav2 {
 
  .progress{
   border-radius: 2px;
-  margin-top: 15px;
+  margin-top: 5px;
  }
 
  .prog{
@@ -203,10 +203,13 @@ body .nav2 {
 
  .progress-bar{
   background-color: rgb(101, 101, 152);
- }
-
+ }   
+ .Username{
+  color: white;
+  margin-bottom: 5px;
+ }                                                                                                                                                                                         
  .Level{
-  color: rgb(181, 123, 214);
+  color: gray;
   margin: 0;
   font-weight: 600;
  }
@@ -372,6 +375,7 @@ body .nav2 {
   width: 74%;
   display: flex;
   background-color: #f4f3f3;
+  flex-direction: column;
 }
 
 .minus_button{
@@ -410,6 +414,7 @@ body .nav2 {
   color: rgb(50, 50, 50);
   font-size: 18px;
   font-weight: 800;
+  margin: 0;
   padding: 5% 5%;
 }
 
@@ -488,6 +493,7 @@ body .nav2 {
 
 .saxeli{
   text-indent: 10px;
+  margin-top: 25px;
 }
 
 .modal_button{
@@ -505,4 +511,38 @@ body .nav2 {
   width: 90px;
   height: 40px;
   margin-right: 15px;
+}
+
+.shop_box{
+  height: 100%;
+  width: 25%;
+  margin-left: 20px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+}
+.Shop_label{
+  height: 10%;
+  width: 90%;
+  border-radius: 6px;
+  padding: 0 5%;
+  margin-top: 15px;
+  background-color: #e1dfe2;
+  text-align: center;
+}
+
+.Shop_tag{
+  margin: 12px;
+  color: rgb(246, 255, 72);
+  font-size: 24px;
+}
+
+.inner_hp{
+  color: #fff;
+}
+
+.patara{
+  font-size: 16px;
+  color: #000;
+  margin-left: 5px;
 }
