@@ -88,3 +88,49 @@ $(damateba).click(function (e) {
   
 });
 
+
+const driver = new Driver();
+
+driver.defineSteps([
+    {
+        element: "#profyuti",
+        popover: {
+            title: "This Is You!",
+            description: ``,
+            position: "right",
+        }
+    },
+    {
+      element: "#tutorgem",
+      popover: {
+          title: "This is Points You get",
+          position: "left",
+      }
+  },
+    {
+        element: "#Habits",
+        popover: {
+            title: "Here You Can Add your Habits",
+            description: `and by completing them you get crystals`,
+            position: "right",
+        }
+    },
+    {
+        element: "#Dailies",
+        popover: {
+            title: "This is Your Daily Habits",
+            position: "right",
+        }
+    },
+    {
+      element: "#shoper",
+      popover: {
+          title: "This Is Store",
+          position: "left",
+      }
+  },
+])
+
+//driver.start()
+
+

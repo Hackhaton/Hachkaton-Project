@@ -218,7 +218,6 @@ body .nav2 {
  .r_box{
   height: 100%;
   width: 400px;
-  border: solid 1px black;
   display: flex;
   align-items: flex-end;
   flex-direction: row-reverse;
@@ -252,14 +251,12 @@ body .nav2 {
   margin-top: 30px;
   height: 600px;
   width: 100%;
-  border: solid 2px red;
   display: flex;
  }
 
  .habit_box{
   height: 100%;
   width: 25%;
-  border: solid 1px black;
   margin-left: 20px;
   display: flex;
   align-items: center;
@@ -274,21 +271,18 @@ body .nav2 {
  .todo_box{
   height: 100%;
   width: 25%;
-  border: solid 1px black;
   margin-left: 40px;
  }
 
  .Routine{
   height: 100%;
   width: 25%;
-  border: solid 1px black;
   margin-left: 40px;
  }
 
  .shop{
   height: 100%;
   width: 25%;
-  border: solid 1px black;
   margin-left: 40px;
  }
 
@@ -479,7 +473,6 @@ body .nav2 {
 
 .add_Todo{
   height: 500px;
-  border: solid 1px black;
   display: flex;
   flex-direction: column;
   padding: 0 5%;
@@ -517,8 +510,8 @@ body .nav2 {
   height: 100%;
   width: 25%;
   margin-left: 20px;
-  border: solid 1px;
   display: flex;
+  border-left: 1px grey solid;
   justify-content: center;
 }
 .Shop_label{
