@@ -3,4 +3,53 @@ body {
     padding: 0px;
     display: flex;
     font-family: 'Poppins', sans-serif;
+    background-image: url(./img/background.png);
+    justify-content: space-around;
+    margin-top: 10% !important;
+    width: 80%;
+    margin: auto;
+}
+
+body div {
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+body div h2 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+body div h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #09C473;
+    margin-top: 100px !important;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.unable {
+    background-color: gainsboro;
+    color: gray;
+
+}
+
+.education {
+    opacity: 0.5;
+}
+
+.personal .button {
+    background-color: #E5F9F0;
+    color: #70D9A7;
 }
