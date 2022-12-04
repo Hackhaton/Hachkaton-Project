@@ -24,21 +24,30 @@ window.onclick = function(event) {
   }
 }
 let append;
+let count1 = 0;
 $(habit).click(function (e) { 
+
   e.preventDefault();
   append = `#Habits`
+  count1 +=1;
+  $(datvla1).html(count1);
 
 });
-
+let count2 = 0;
 $(daily).click(function (e) { 
+ 
   e.preventDefault();
   append = `#Dailies`
+  count2 += 1;
+  $(datvla2).html(count2);
 
 });
-
+let count3 = 0;
 $(todoes).click(function (e) { 
   e.preventDefault();
   append = `#Todo`
+  count3   += 1;
+  $(datvla3).html(count3);
 
 });
 
@@ -53,6 +62,7 @@ $(addtodo).click(function (e) {
   $(desc).val("");
   $(saxel).val("");
   e.preventDefault();
+
   $(append).append(`        <div class="Todo_item">
   <div class="Add_button">
     <div id="damateba" class="plus_box">
@@ -71,6 +81,7 @@ $(addtodo).click(function (e) {
   </div>
 
 </div>`);
+
 let hp = 100
 let line = 100;
 $(washla).click(function (e) { 
@@ -79,10 +90,6 @@ $(washla).click(function (e) {
   $(hpbar).html(hp);
   $(hpbar).css("width", `${line}%`)
 
-
-
-
-  
 });
 let gemnum = 0;
 
@@ -153,10 +160,15 @@ driver.defineSteps([
 },
 ])
 
-driver.start()
+// driver.start()
 
 
 function myfunction() {
   window.location.href="main.html";  
 }
 
+const knopka = document.querySelector(".btn-success")
+
+knopka.addEventListener("click", () =>{
+  style.backgroundColor = "#152047"
+})
