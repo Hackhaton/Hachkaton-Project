@@ -10,6 +10,10 @@ body {
   /* font-family: 'Roboto', sans-serif; */
 }
 
+.creatBody {
+  background-image: url("./img/backgroundimg.png") !important;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 
@@ -20,7 +24,7 @@ body {
 }
 
 
-.main_box2{
+.main_box2 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -43,7 +47,8 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.right_box2{
+
+.right_box2 {
   /* width: 50%; */
   height: 100vh;
   display: flex;
@@ -58,11 +63,12 @@ body {
   width: 70%;
 }
 
-.text_box2{
+.text_box2 {
   margin-bottom: 10px;
   text-align: center;
   width: 70%;
 }
+
 .text_box2 h1 {
   font-size: 30px;
   color: #fff;
@@ -87,29 +93,29 @@ body {
   width: 100%;
 }
 
-.email-user h6{
+.email-user h6 {
   margin-right: 200px;
   margin-bottom: -20px;
   color: white;
 }
 
-.pass{
+.pass {
   margin-right: 522px;
   margin-top: 60px;
   margin-bottom: -60px;
   position: relative;
   top: 25px;
   color: white;
-  
+
 }
 
-.pass h6{
+.pass h6 {
   position: relative;
   bottom: 30px;
   left: 70px;
 }
 
-.pass a{
+.pass a {
   position: relative;
   color: rgba(255, 255, 255, 0.388);
   left: 427px;
@@ -145,16 +151,16 @@ body {
   background-color: #50b5e9;
 }
 
-.knopka2{
+.knopka2 {
   background: #46a7d9;
-  font-family: Roboto,sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.71;
-    border: 1px solid transparent;
-    padding: 0.219rem 0.75rem;
-    border-radius: 2px;
-    color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.71;
+  border: 1px solid transparent;
+  padding: 0.219rem 0.75rem;
+  border-radius: 2px;
+  color: #fff;
 }
 
 
@@ -174,10 +180,10 @@ a {
   margin-top: 20px;
 }
 
-.justsign a{
+.justsign a {
   color: white;
 }
 
-.justsign:hover{
+.justsign:hover {
   text-decoration: underline;
 }
