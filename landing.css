@@ -81,6 +81,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 120px;
+  z-index: -1;
 }
 
 .content_box {
