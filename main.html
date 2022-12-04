@@ -22,29 +22,53 @@
   </head>
   <body>
     <div id="myModal" class="modal">
-
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">X</span>
         <div class="add_Todo">
           <p class="Add_text">Add Item</p>
           <div class="input_box">
+<<<<<<< HEAD
             <input placeholder="Choose Name" class="saxeli" type="text" name="" id="saxel">
             <input placeholder="Add Description" class="saxeli" type="text" name="" id="desc">
 
+=======
+            <input
+              placeholder="Choose Name"
+              class="saxeli"
+              type="text"
+              name=""
+              id=""
+            />
+>>>>>>> 917c68605a0812f90b92bd894d9ce8cea7f4f192
           </div>
-          <button type="button" id="addtodo" class="modal_button btn btn-primary">Add</button>
-
-
+          <button
+            type="button"
+            id="addtodo"
+            class="modal_button btn btn-primary"
+          >
+            Add
+          </button>
         </div>
         <h6>Choose Where To add</h6>
         <div class="choose_box">
+<<<<<<< HEAD
           <button id="habit" type="button" class="btn btn-primary">Habits</button>
           <button id="daily" type="button" class="btn btn-secondary">Dailies</button>
           <button id="todoes" button type="button" class="btn btn-success">ToDos</button>
+=======
+          <button id="habit" type="button" class="btn btn-primary">
+            Habits
+          </button>
+          <button id="daily" type="button" class="btn btn-secondary">
+            Dailies
+          </button>
+          <button id="todoes" button type="button" class="btn btn-success">
+            To Dos
+          </button>
+>>>>>>> 917c68605a0812f90b92bd894d9ce8cea7f4f192
         </div>
       </div>
-    
     </div>
     <nav class="nav2">
       <ul>
@@ -114,9 +138,13 @@
     </nav>
     <main>
       <div class="profile">
+        <div class="photo">
+          <img src="" alt="" />
+        </div>
+        <div class="bar_system"></div>
         <div class="prof_box">
           <div class="photo">
-            <img class="wizardImage" src="img/Wizard.png" alt="">
+            <img class="wizardImage" src="img/Wizard.png" alt="" />
           </div>
           <div class="bar_system">
             <div class="prog">
@@ -124,28 +152,61 @@
               <p class="Level">@Lashvardi Level 1</p>
               <div class="progress">
                 <div class="progress-bar bg-danger" role="progressbar" aria-label="Example with label" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">100</div>
+              <p class="Level">lvl 1</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 20%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="50"
+                >
+                  10
+                </div>
+                <span>50</span>
               </div>
               <span class="inner_hp" >50/50</span>
 
               
               <div class="progress">
                 <div class="progress-bar bg-warning" role="progressbar" aria-label="Example with label" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">0</div>
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 10%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="50"
+                >
+                  0
+                </div>
+                <span>1000</span>
               </div>
               <span class="inner_hp">25/25</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">Blocked</div>
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  style="width: 100%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="50"
+                >
+                  Blocked
+                </div>
               </div>
             </div>
- 
-              
           </div>
         </div>
 
-
         <div class="r_box">
           <div id="Clickable" class="addbtn">
-            <img src="img/X.svg" alt=""></div>
-
+            <img src="img/X.svg" alt="" />
+          </div>
         </div>
       </div>
 
@@ -160,16 +221,11 @@
               <a href="">Week</a>
               <a href="">Hard</a>
             </div>
-
           </div>
 
           <div class="h_box">
             <span class="Inner">Habits Here</span>
-              
           </div>
-
-
-
         </div>
         <div id="Dailies" class="habit_box">
           <div class="habit_nav">
@@ -180,14 +236,11 @@
               <a class="active" href="">All</a>
               <a href="">Due</a>
             </div>
-
           </div>
 
           <div class="h_box">
             <span class="Inner">Dailies</span>
-              
           </div>
-
         </div>
         <div id="Todo" class="habit_box">
           <div class="habit_nav">
@@ -199,17 +252,11 @@
               <a href="">To Do</a>
               <a href="">Done</a>
             </div>
-
           </div>
 
           <div class="h_box">
             <span class="Inner">Add To do</span>
-              
           </div>
-            
-
-          
-
         </div>
         <div class="shop_box">
           <div class="Shop_label">
@@ -217,8 +264,22 @@
 
           </div>
 
+        <div class="habit_box">
+          <div class="habit_nav">
+            <div class="right">
+              <p>Habits</p>
+            </div>
+            <div class="nav_right">
+              <a class="active" href="">All</a>
+              <a href="">Week</a>
+              <a href="">Hard</a>
+            </div>
+          </div>
+
+          <div class="h_box">
+            <span class="Inner">Habits Here</span>
+          </div>
         </div>
-        
       </div>
     </main>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
