@@ -279,3 +279,7 @@ body .nav1 li .account:hover {
   background: #4f2a93;
   transition: 0.3s;
 }
+
+.Blob{
+  border-radius: 45%;
+}

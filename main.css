@@ -529,6 +529,7 @@ span {
   display: flex;
   border-left: 1px grey solid;
   justify-content: center;
+  flex-direction: column;
 }
 
 .Shop_label {
@@ -556,3 +557,82 @@ span {
   color: #000;
   margin-left: 9px;
 }
+
+.rewards_box{
+  height: 60%;
+  width: 95%;
+}
+
+.yuti{
+  height: 100%;
+  width: 25%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: solid 2px grey ;
+}
+
+.item_box{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.item1{
+  height: 130px;
+  width: 100px;
+  border: solid 2px grey;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.item1 img{
+  width: 60px;
+  margin-top: 8px;
+}
+
+.price_box{
+  width: 100%;
+  height: 25px;
+  background-color: #f0e0ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price_box img{
+  width: 20px;
+  margin: 0;
+}
+
+.price_box span{
+  margin-left: 5px;
+}
+
+.input_box{
+  width: 90%;
+}
+
+.input_box input{
+  width: 90%;
+}
+.ukan{
+  width: 50px;
+  color: white;
+  background-color: #fff;
+  color: #fff;
+}
+
+.ukan h1{
+  color: #fff !important  ;
+}
+

@@ -66,16 +66,22 @@ $(addtodo).click(function (e) {
   </div>
   <div class="minus_button">
     <div id="washla" class="minus_box">
-      <img  class="minus" src="img/minus.svg" alt="">
+    <div class"ukan"><h1>-</h1></div>
     </div>
   </div>
 
 </div>`);
-
+let hp = 100
+let line = 100;
 $(washla).click(function (e) { 
-  e.preventDefault();
+  hp -= 5;
+  line -= 5;
+  $(hpbar).html(hp);
+  $(hpbar).css("width", `${line}%`)
 
-  $(this).closest(".Todo_item").remove();
+
+
+
   
 });
 let gemnum = 0;
@@ -96,7 +102,7 @@ driver.defineSteps([
         element: "#profyuti",
         popover: {
             title: "This Is You!",
-            description: ``,
+            description: `Here You can See Stats`,
             position: "right",
         }
     },
@@ -104,6 +110,7 @@ driver.defineSteps([
       element: "#tutorgem",
       popover: {
           title: "This is Points You get",
+          description: "You Can spend Them In the Shop",
           position: "left",
       }
   },
@@ -129,8 +136,22 @@ driver.defineSteps([
           position: "left",
       }
   },
+  {
+    element: "#Clickable",
+    popover: {
+        title: "Push This Button To Add Item",
+        position: "left",
+    }
+},
+  {
+    element: "#itemers",
+    popover: {
+        title: "This Is Store",
+        description:"Here You Can Buy Ingame Staff",
+        position: "left",
+    }
+},
 ])
 
-//driver.start()
-
+driver.start()
 
