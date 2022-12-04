@@ -10,7 +10,7 @@ body {
   /* font-family: 'Roboto', sans-serif; */
 }
 
-.creatBody {
+.createBody {
   background-image: url("./img/backgroundimg.png") !important;
 }
 
@@ -199,4 +199,8 @@ a {
 
 .none:hover{
   color: #fff;
+}
+.toDoLogo {
+  font-size: 40px !important;
+  margin-bottom: 50px;
 }
