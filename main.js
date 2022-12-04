@@ -155,3 +155,8 @@ driver.defineSteps([
 
 driver.start()
 
+
+function myfunction() {
+  window.location.href="main.html";  
+}
+

@@ -187,3 +187,16 @@ a {
 .justsign:hover {
   text-decoration: underline;
 }
+
+.knopka a{
+  border: 0;
+}
+
+.none{
+  color: #fff;
+  text-decoration: 0;
+}
+
+.none:hover{
+  color: #fff;
+}
