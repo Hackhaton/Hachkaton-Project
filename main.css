@@ -544,7 +544,7 @@ span {
 
 .Shop_tag {
   margin: 12px;
-  color: rgb(246, 255, 72);
+  color: #FFF5E7;
   font-size: 24px;
 }
 
@@ -580,6 +580,9 @@ span {
   justify-content: space-around;
   flex-direction: row;
   margin-top: 25px;
+  display: grid;
+  grid-template: 150px / auto auto auto;
+  column-gap: 20px;
 }
 
 .item1{

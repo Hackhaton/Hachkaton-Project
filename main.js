@@ -160,7 +160,7 @@ driver.defineSteps([
 },
 ])
 
-// driver.start()
+driver.start()
 
 
 function myfunction() {
